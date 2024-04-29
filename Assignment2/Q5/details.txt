@@ -1,0 +1,8 @@
+agent: NA
+Details: This query searches the books table. It uses the AVG function to calculate the average rating for each book from the reviews table. The JOIN condition joins the reviews and books table based on the book id. The GROUP BY groups the results by the title and book id. The HAVING filters the grouped results. The ORDERS BY orders the average rating by descending order and the LIMIT statement limits the search to the top 3 results.
+
+References: https://www.w3schools.com/sql/sql_top.asp
+https://www.w3schools.com/sql/sql_having.asp
+https://www.w3schools.com/sql/sql_count_avg_sum.asp
+https://www.w3schools.com/sql/sql_orderby.asp
+https://www.w3schools.com/sql/sql_ref_desc.asp
