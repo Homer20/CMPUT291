@@ -1,0 +1,2 @@
+agent: NA
+Details: This query selects names and emails from the 3 tables (waitlists, borrowings, members). It finds the books on the waitlist that are also on the borrowed list, and then it matches the members to these books.
