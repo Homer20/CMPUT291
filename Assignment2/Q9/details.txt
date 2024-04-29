@@ -1,0 +1,4 @@
+agent: NA
+Details: This query creates a view called book_info, which includes the book id, title, number of reviews, average rating, average rating for reviews in 2023, and the total number of borrow/waitlist requests. The strftime function is used to filter reviews from 2023. There are multiple LEFT JOINs used to join reviews, borrowings, and waitlists with book id. The GROUP BY is used to book id and title. Lastly, the SELECT statement at the end is used to display all the information.
+
+References: https://www.codecademy.com/resources/docs/sql/dates/strftime
