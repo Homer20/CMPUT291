@@ -1,0 +1,6 @@
+agent: NA
+Details: This query searches the table (books) and uses multiple functions. The COUNT function is used to count how many borrowings there are for each book. The MAX function ensures that the most recent start date is used for each borrowing. The LEFT JOIN is used to join both the books and borrowing tables based on the book ids. It finds all the rows from the books table and tries to match them to the borrowings table. The WHERE condition filters by books published after 2001. The GROUP BY statement groups the results based on the book title.
+
+References: https://www.w3schools.com/sql/sql_count_avg_sum.asp
+https://www.w3schools.com/sql/sql_min_max.asp
+https://www.w3schools.com/sql/sql_groupby.asp
