@@ -1,0 +1,7 @@
+agent: NA
+Details: This query searches the members table. The SELECT statment calculates the total number of penalties, and the total amount paid. It uses CASE WHEN conditions to check if the penalties are fully paid (non fully paid penalties are not included in the calculation). The IFNULL is used to replace a null value with a 0. The first LEFT JOIN is used to join the members table with the borrowings table based on the members email. The second LEFT JOIN is used to join the previous results with the penalties table based on the book id. GROUP BY groups the rrsults by the member emails and names. Lastly, the HAVING is to filter members with at least 1 penalty.
+
+References: https://www.w3schools.com/sql/sql_sum.asp
+https://www.w3schools.com/sql/sql_case.asp
+https://www.w3schools.com/sql/sql_isnull.asp
+https://www.w3schools.com/sql/sql_join_left.asp
