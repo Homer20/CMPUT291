@@ -1,0 +1,4 @@
+agent: NA
+Details: This query searches 2 tables (borrowings, waitlists), and it uses a WHERE condition to check for books that have been borrowed for more than 14 days. The julianday function is used to calculate how long the books are borrowed for. The AND condition filters by priority number.
+
+References: https://www.techonthenet.com/sqlite/functions/julianday.php
