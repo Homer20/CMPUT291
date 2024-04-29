@@ -1,0 +1,2 @@
+agent: NA
+Details: This query searches the view created in Q9. It uses the JOIN condition to perform joins between the members, borrowings, and book_info tables based on the member email and book id. The WHERE condition filters the members based on which members have borrowed books with an average rating > 3.5. The second condition filters the results even more specifically. 
