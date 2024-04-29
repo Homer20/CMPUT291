@@ -1,0 +1,4 @@
+agent:
+Details: The query searches the 3 tables (borrowings, members, books), and the WHERE condition checks that the members who borrowed a book match the member emails and borrowed books match the book ids in the books table. The AND conditions filter members by faculty and author names. The LOWER function makes it case insensitive.
+
+References: https://www.w3schools.com/sql/func_sqlserver_lower.asp
